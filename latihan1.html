@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.min.css" />
+    
+    <title>Bakery Succes</title>
+    <style>
+      @font-face{
+        font-family: "April Flowers";
+        src: url(font/AprilFlowers.ttf) format("truetype");
+      }
+      @font-face {
+        font-family:"Snacker Comic";
+        src: url(font/SnackerComic_PerosnalUseOnly.ttf);
+      }
+      @font-face {
+        font-family: pleasant;
+        src: url(font/PleasantFeelings.ttf);
+      }
+      body{
+        background-color: rgb(20, 25, 71);
+      }
+    
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <!-- awwaL NAV -->
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(20, 25, 71);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">BAKERY SUCCES</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >HOME</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">MENU</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      PROMO
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">promo discount</li>
+                      <li>
+                        <a class="dropdown-item" href="#">promo product</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link disabled"  
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >merchandise</a
+                    >
+                  </li>
+                </ul>
+                <a class="btn btn-primary" href="login.html" role="button">LOGIN</a>
+                <a class="btn btn-success" href="#" role="button">SIGN UP</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+<!-- akhir nav -->
+<!-- awal banner -->
+<div class="container-fluid banner" style="height:80vh ; background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url(img/bakery.jpg) ;background-size: cover; background-repeat: no-repeat; background-position: center;">
+
+<div class="container col-lg-6 d-flex justify-content-center align-items-center" style="height:100%;
+ color: rgba(204, 240, 0, 0.966);">
+  <div class="text-center">
+    <p style="font-size: 60px; font-family:April Flowers"> 
+      selamat datang di Bakery 
+    </p>
+    <p class="d-none d-md-block">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non consequatur sed aspernatur voluptas dolorem doloremque minima debitis sunt consequuntur quae?
+    </p>
+    <a tabindex="0" class="btn btn-lg btn-secondary" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="OOPSSS,LOGIN DULU YA" data-bs-content="LOGIN UNTUK MENGGUNAKAN FITUR INI">RESERVASI</a>
+  </div>
+</div>
+
+</div>
+<!-- akhir banner -->
+<!-- slide caraousel -->
+<div class="container">
+  <div class="container-fluid d-flex justify-content-center">
+   
+    <div class="col-8">
+      <div class="text-center" style="color: yellowgreen ;">
+        <h2 style=" margin-bottom:30px; padding-top:20px; font-family: pleasant;"">PRODUK TERLARIS</h2>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/car1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><a href="#" style="text-decoration: none; color:white">risol</a> </h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor expedita ea quam, repellat excepturi odit odio enim quibusdam officiis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            
+            <img src="img/car2.jpg" style="background-color: lini;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><a href="#" style="text-decoration: none; color:white;">Roti Prancis</a></h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laborum nisi odio vitae ipsum explicabo aliquid vel consequatur iusto quae.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/car3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><a href="#" style="text-decoration: none; color:white">Roti Belanda</a> </h5>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda voluptates aut, iure consectetur ut officiis similique eius veniam sequi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- akhir caraousel -->
+<!-- menu produk -->
+
+<div class="container-fluid py-5">
+<div class="container">
+  <h2 class="text-center mb-5" style="color:greenyellow ;">PRODUK KAMI</h2>
+ <div class="col-12">
+  <div class="row">
+    <div class="col-lg-3">
+      <ul class="list-group">
+        <a href="#"class="list-group-item d-flex justify-content-between align-items-start">ROTI KERING
+          <span class="badge bg-primary rounded-pill">14</span>
+        </a>
+        <a href="#"class="list-group-item d-flex justify-content-between align-items-start">PIZZA
+          <span class="badge bg-primary rounded-pill">14</span>
+        </a>
+        <a href="#"class="list-group-item d-flex justify-content-between align-items-start">KUE ULANG TAHUN
+          <span class="badge bg-primary rounded-pill">14</span>
+        </a>
+        <a href="#"class="list-group-item d-flex justify-content-between align-items-start">BROWNIES
+          <span class="badge bg-primary rounded-pill">14</span>
+        </a>
+        <a href="#"class="list-group-item d-flex justify-content-between align-items-start mb-5">DONAT
+          <span class="badge bg-primary rounded-pill">14</span>
+        </a>
+      </ul>
+    </div>
+
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-3 col-sm-6  gerak">
+          <div class="card" style="border-color: gold; ">
+            <img src="img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cookies</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis debitis nulla asperiores quisquam nemo adipisci vel! Quos, accusantium aperiam.</p>
+              <button  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">lihat</button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">tambah ke keranjang</a></li>
+                <li><a class="dropdown-item" href="#">beli sekarang</a></li>
+                
+              </ul>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-6 gerak">
+          <div class="card" style="border-color: gold;">
+            <img src="img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cookies</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis debitis nulla asperiores quisquam nemo adipisci vel! Quos, accusantium aperiam.</p>
+              <a href="#" class="btn btn-primary">lihat</a>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-6 gerak">
+          <div class="card" style="border-color: gold;">
+            <img src="img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cookies</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis debitis nulla asperiores quisquam nemo adipisci vel! Quos, accusantium aperiam.</p>
+              <a href="#" class="btn btn-primary">lihat</a>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-6 gerak">
+          <div class="card" style="border-color: gold;">
+            <img src="img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cookies</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil blanditiis debitis nulla asperiores quisquam nemo adipisci vel! Quos, accusantium aperiam.</p>
+              <a href="#" class="btn btn-primary">lihat</a>
+            </div>
+          </div>
+         </div>
+      </div>
+      
+    </div>
+  </div>
+ </div>
+</div>
+  </div>
+    <!-- akhir produk -->
+        <script src="bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+        </script>
+        
+      </body>
+  </html>

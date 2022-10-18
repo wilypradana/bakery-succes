@@ -1,0 +1,39 @@
+
+    @font-face{
+        font-family: "April Flowers";
+        src: url(font/AprilFlowers.ttf) format("truetype");
+      }
+      @font-face {
+        font-family:"Snacker Comic";
+        src: url(font/SnackerComic_PerosnalUseOnly.ttf);
+      }
+      @font-face {
+        font-family: pleasant;
+        src: url(font/PleasantFeelings.ttf);
+      }
+html,body{
+    font-family: pleasant;
+    font-weight: 700;
+    height: 100%;
+    background-color: rgb(29, 1, 54);
+}
+.container{
+    border: 1px black solid;
+    width: 800px;
+
+   
+}
+
+.card{ 
+    height: 700px;
+    border: none;
+}
+
+.card-body{
+    background-color: rgb(83, 249, 255);
+}
+
+input[type="email"],
+input[type="password"]{
+    border-radius: 25px;
+}
